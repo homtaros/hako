@@ -1,0 +1,57 @@
+.body {
+    margin: 0;
+}
+
+.main {
+    background-color: aquamarine;
+    color: blueviolet;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caption {
+    padding-top: 20px;
+}
+
+.content {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.content img {
+    width: 90%;
+    height: 400px;
+}
+
+.content h2 {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.link {
+    position: absolute;
+    display: block;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 20px;
+}
+.link2 {
+    position: absolute;
+    display: block;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
